@@ -1,8 +1,6 @@
 from flask import Flask
 from openAIGen import openai_bp
 from geminiGen import genai_bp
-from PIL import Image
-
 
 app = Flask(__name__)
 
