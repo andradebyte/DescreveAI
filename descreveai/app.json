@@ -9,6 +9,10 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este app precisa acessar a câmera para tirar fotos.",
+        "NSPhotoLibraryUsageDescription": "Este app precisa acessar a galeria para escolher fotos."
+      },
       "supportsTablet": true
     },
     "android": {
